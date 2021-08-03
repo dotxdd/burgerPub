@@ -1,0 +1,149 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2014/09/17/21/43/bricks-450106__340.jpg");
+    color: snow;
+ margin: 0;
+ padding: 0;
+}
+#head{
+    
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top:0 ;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    padding: 5px auto;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#head .nawigacja  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+#head .nawigacja  ul li{
+    padding: 10px;
+    
+    
+}
+#head .nawigacja  ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Indie Flower', cursive;
+}
+#head .nawigacja  ul li a:hover{
+    color:#ff8533;
+    opacity: 1;
+    transition: all 0.20s;
+
+}
+
+h3{
+    font-family: 'Indie Flower', cursive;   
+}
+
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+:root{
+    box-sizing: border-box;
+}
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+#historia{
+    background-color: snow;
+    color: black;
+    
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    
+}
+#historia .bok1{
+    float: left;
+    width: 40%;
+  
+    padding: 8px;
+    height: 100%;
+}
+#historia .bok2{
+    float: left;
+    width: 60%;
+    padding: 8px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/08/00/26/food-1081707_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+    
+.odst{
+    background-color: transparent;
+    height: 30px;
+}
+#odste{
+    background-color: transparent;
+    height: 30px;
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+}
+
+.menu{
+    background-color: transparent;
+    color: white;
+    height: 320px;
+    margin: 8px;
+    padding: 5px;
+    display: inline-block;
+    
+}
+.menu .one{
+    width: 25%;
+    float: left;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: black;
+}
+.one img{
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+footer{
+    
+    height: 60px;
+   display: inline-block;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    padding: 5px auto;
+    margin-top: 10px;
+    width: 100%;
+   
+}
+.red{
+    color: red;
+}
+#kontakt p{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+    
+}
+
